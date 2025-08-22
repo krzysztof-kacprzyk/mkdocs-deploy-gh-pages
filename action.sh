@@ -19,7 +19,7 @@ else
     fi
 fi
 
-pip install .
+pip install --no-deps .
 
 if [ -n "${CUSTOM_DOMAIN}" ]; then
     print_info "Setting custom domain for github pages"
